@@ -9,10 +9,15 @@
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
+.button {
+    transition-property: color, background-color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-cubic-bezier);
+}
+
 .button:hover {
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
-    color: var(--transition-duration) var(--transition-cubic-bezier);
-    background-color: var(--transition-duration) var(--transition-cubic-bezier);
+    color: var(--button-hover-color);
+    background-color: var(--button-hover-background);
 }
 
 .card-work .card-image {
