@@ -25,6 +25,7 @@
 /* Transformations */
 .card-work:hover .card-image {
     transform: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
@@ -472,6 +473,7 @@ h1, h2, h3, h4, h5, h6 {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 /* Target card-inner when card-work is hovered */
