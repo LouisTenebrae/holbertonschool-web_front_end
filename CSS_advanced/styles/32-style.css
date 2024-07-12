@@ -10,8 +10,9 @@
 }
 
 .button:hover {
-    transition: color var(--transition-duration) var(--transition-cubic-bezier),
-                background-color var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+    color: var(--button-hover-color);
+    background-color: var(--button-hover-background);
 }
 
 .card-work .card-image {
