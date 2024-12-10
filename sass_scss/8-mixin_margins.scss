@@ -1,0 +1,13 @@
+/* My comment */
+@mixin margin($margin: 10px) {
+    margin-left: $margin;
+    margin-right: $margin;
+  }
+  
+  body {
+    @include margin; // Default margin of 10px
+  }
+  
+  div {
+    @include margin(15px); // Custom margin of 15px
+  }
