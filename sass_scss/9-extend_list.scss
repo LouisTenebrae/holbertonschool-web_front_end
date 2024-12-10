@@ -1,0 +1,14 @@
+/* My comment */
+.info {
+    font-size: 12px; // Common font size for all classes
+  }
+  
+  .success {
+    @extend .info; // Inherit .info styles
+    color: #00ff00; // Green text color
+  }
+  
+  .warning {
+    @extend .info; // Inherit .info styles
+    color: #ff0000; // Red text color
+  }
